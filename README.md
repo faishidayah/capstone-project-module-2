@@ -1,19 +1,19 @@
-__Supermarket customer analysis__
+# Supermarket customer analysis
 
-project ini melakukan analisis berdasarkan demografi customer. . project ini bertujuan agar Supermarket mengetahui preferensi belanja berdasarkan kelompok konsumen. Sehingga memungkinkan perusahaan untuk fokus pada segmen yang memiliki potensi terbesar dan melakukan optimasi pemasaran dan melakukan pengembangan produk yang relevan bagi konsumen tertentu.
+This project conducts analysis based on customer demographics. This project aims for Supermarket to know shopping preferences based on consumer groups. So that it allows the company to focus on segments that have the greatest potential and optimize marketing and develop products that are relevant to certain consumers.
 
-secara garis besar, project meliputi:
-1. Data Understanding & Data celansing :
-   ==> Data understanding berupa pemahaman lebih dalam tentang data yang ada di dalam dataset sehingga kita bisa mengetahui anomali-anomali yang terdapat dalam dataset tersebut.
-   ==> Data cleansing berupa menangani missing value, data duplikat, outliers, mengganti nama value pada kolom kategorikal agar menggunakan istilah yang lebih umum, konversi tipe data kolom yang berisi tanggal menjadi tipe data datetime[ns], membuat kolom baru yang akan digunakan pada proses analisis data, dan drop kolom yang tidak digunakan
-2. data analyst :
-   ==> melakukan analisis untuk menemukan wawasan dan insight. analisis meliputi kebiasaan berbelanja customer, apa proporsi belanja terbesar customer berdasarkan demografi, tempat berbelanja yang paling sering digunakan customer, korelasi antara demografi customer dan total pembelian
-3. Kesimpulan dan rekomendasi :
-   ==> yaitu memberikan kesimpulan terhadap wawasan dan insight yang ditemukan berdasarkan dari hasil analisis. kemudian memberikan rekomendasi berupa tindakan apa yang mungkin bisa dilakukan untuk para stakeholder supermarket.
+In general, the project includes:
 
+### Data Understanding & Data cleansing
+- Data understanding in the form of a deeper understanding of the data in the dataset so that we can find out the anomalies contained in the dataset.
+- Data cleansing in the form of handling missing values, duplicate data, outliers, changing the name of the value in the categorical column to use a more general term, converting the data type of the column containing the date to the datetime[ns] data type, creating a new column that will be used in the data analysis process, and dropping unused columns
+### Data analysis 
+- Data analysis is used to find useful insights in a dataset. Analysis includes customer shopping habits, what is the proportion of the largest customer shopping based on demographics, the most frequently used shopping places for customers, the correlation between customer demographics and total purchases
+### Conclusions and recommendations
+- providing conclusions on the insights and understanding based on the results of the analysis. then provide recommendations in the form of actions that might be taken for supermarket stakeholders.
 
-package yang digunakan :
-- pandas
-- numpy
-- matplotlib.pyplot
-- seaborn
+packages used:
+- pandas 🐼
+- numpy #️⃣
+- matplotlib.pyplot 📊
+- seaborn 📉
